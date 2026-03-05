@@ -38,15 +38,16 @@ Database: MongoDB
 
 ## Project Structure
 
+```
 AI-Study-Optimizer
 │
 ├── frontend
-│   └── React application for user interface
+│   ├── React application for user interface
+│   └── README.md
 │
-├── backend
-│   └── Python API for video processing and AI features
-│
-└── README.md
+└── backend
+    └── Python API for video processing and AI features
+```
 
 ## Future Improvements
 - PDF / PPT note export
