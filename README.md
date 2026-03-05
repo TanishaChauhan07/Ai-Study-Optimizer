@@ -18,12 +18,35 @@ This allows students to revise faster and track their study productivity.
 - Track student study productivity
 - Smart revision system before exams
 - Export notes for quick revision
+  
+## How It Works
 
+1. User pastes a YouTube lecture link.
+2. Backend extracts the video transcript.
+3. AI processes the transcript to generate:
+   - summarized notes
+   - key concepts
+   - quiz questions
+4. Results are displayed in the frontend dashboard for quick revision.
+
+   
 ## Tech Stack
 Frontend: React.js  
 Backend: Python (FastAPI / Flask)  
 AI Integration: NLP models / OpenAI API  
 Database: MongoDB  
+
+## Project Structure
+
+AI-Study-Optimizer
+│
+├── frontend
+│   └── React application for user interface
+│
+├── backend
+│   └── Python API for video processing and AI features
+│
+└── README.md
 
 ## Future Improvements
 - PDF / PPT note export
