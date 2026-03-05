@@ -1,10 +1,15 @@
-Backend for AI Study Optimizer
+# Backend – AI Study Optimizer
 
-Built using Node.js / Python.
+Backend service responsible for processing lecture videos and generating AI-based study material.
 
-Handles:
-- YouTube video processing
-- Transcript extraction
-- AI note generation
-- Quiz generation
-- Productivity analytics
+## Responsibilities:
+- Extract transcript from YouTube lectures
+- Process transcript using AI models
+- Generate notes and quizzes
+- Provide APIs for the frontend
+
+## Tech Stack:
+- Python
+- FastAPI / Flask
+- NLP / OpenAI API
+- MongoDB
