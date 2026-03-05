@@ -2,13 +2,13 @@
 
 React-based user interface for the AI Study Optimizer platform.
 
-Responsibilities:
-- Accept YouTube lecture links
-- Display generated notes and summaries
+## Responsibilities
+- Accept YouTube lecture links from users
+- Display AI-generated notes and summaries
 - Show quizzes generated from lecture content
-- Provide productivity dashboard for students
+- Provide a productivity dashboard for students
 
-Tech Stack:
+## Tech Stack
 - React.js
 - Tailwind CSS (optional)
 - Axios for API communication
